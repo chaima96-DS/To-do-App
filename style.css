@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://css.gg/play-list-add.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+body
+{
+   
+    
+    background-color: #E4E9F7;
+   
+}
+
+.todo-app
+{
+     padding: 30px;   
+     
+     background-color: #495371;
+     border-radius: 10px;
+     margin: 20px auto;
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-items: center;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+
+}
+/*************************/
+/*****to do form *****/
+.app-title
+{
+    margin: auto;
+    color: #E4E9F7;
+    
+}
+
+.todo-form
+{
+    margin: 10px auto;
+  padding: 0;
+  
+    height: 60px;
+    width: 90%;
+   display: flex;
+    align-items: center;
+
+}
+
+.todo-button
+{
+    width: 6rem;
+    margin: 0 auto;
+    border: none;
+   height: 35px;
+   font-size: 15px;
+   border-radius: 10px;
+   box-shadow: 0 5px 15px rgba(0,0,0,.1);
+  
+}
+.txt
+{
+    height: 40px;
+    width: 25rem;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+   /* border-bottom: 2px solid  #c44569;*/
+
+    
+    
+}
+
+
+/*****to do body *****/
+.todo-body
+{
+     background-color: #E4E9F7;
+    font-size: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+ 
+.my-list
+{
+   
+    list-style: none;
+    padding: 10px;
+   
+}
+
+
+ .task-div
+ {
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    
+ }
+li 
+{
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    padding: 10px;
+    border-radius: 5px;
+    width:85%;
+            
+}
+.fa-check ,.fa-trash
+{
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 5px;
+}
+.fa-trash
+{
+    background-color:#FC4F4F;
+}
+
+.check-delete
+{
+    display: flex;
+}
+
+
+.delete
+{
+    
+    border: none;
+   
+}
+.checked
+{
+  
+    border: none;
+   
+}
+.complete li
+{
+    text-decoration: line-through;
+}
+.complete .fa-check
+
+{
+    background-color: aquamarine;
+}
