@@ -18,8 +18,8 @@ body
 .todo-app
 {
      padding: 30px;   
-     
-     background-color: #495371;
+   
+     background-color: #ffffff;
      border-radius: 10px;
      margin: 20px auto;
      width: 50%;
@@ -35,7 +35,7 @@ body
 .app-title
 {
     margin: auto;
-    color: #E4E9F7;
+    color: #495371;
     
 }
 
@@ -57,7 +57,7 @@ body
     margin: 0 auto;
     border: none;
    height: 35px;
-   font-size: 15px;
+   font-size: 18px;
    border-radius: 10px;
    box-shadow: 0 5px 15px rgba(0,0,0,.1);
   
@@ -71,7 +71,9 @@ body
     border: none;
     outline: none;
     border-radius: 5px;
-   /* border-bottom: 2px solid  #c44569;*/
+    background-color: #f3f3f3;
+    font-size: 15px;
+   border-bottom: 2px solid  #495371;
 
     
     
@@ -81,7 +83,7 @@ body
 /*****to do body *****/
 .todo-body
 {
-     background-color: #E4E9F7;
+     
     font-size: 15px;
     border-radius: 10px;
     display: flex;
@@ -112,23 +114,24 @@ li
     padding: 10px;
     border-radius: 5px;
     width:85%;
+   align-self: center;
+   font-size: 18px;
             
 }
 .fa-check ,.fa-trash
 {
-    background-color: #ffffff;
+  
     padding: 10px;
-    margin: 2px;
+    margin: 5px;
     border-radius: 5px;
+    color: white;
 }
-.fa-trash
-{
-    background-color:#FC4F4F;
-}
+
 
 .check-delete
 {
     display: flex;
+    
 }
 
 
@@ -136,20 +139,27 @@ li
 {
     
     border: none;
-   
+    border-radius: 10px;
+    margin: 5px;
+    background-color:#FC4F4F;
 }
 .checked
 {
   
     border: none;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: #495371;
+    
    
 }
 .complete li
 {
     text-decoration: line-through;
+    opacity: 0.4;
 }
-.complete .fa-check
+.complete .checked
 
 {
-    background-color: aquamarine;
+    background-color: #019267;
 }
